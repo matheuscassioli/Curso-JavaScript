@@ -13,7 +13,7 @@ function Contar() {
         var f = Number(fim.value)
         var p = Number(passo.value)
         for (var c = i; c <= f; c += p) {
-            res.innerHTML += `${c}`
+            res.innerHTML += ` ${ c   }  \u{1F57A}`
         }
     }
 }
